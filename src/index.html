@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-800 flex justify-center items-center h-[100vh]">
+    <div class="bg-white ml-[30px] mr-[30px] pt-[30px] pb-[20px] px-[30px] md:w-[500px] ">
+      <div class="flex flex-col gap-[15px] relative mt-[30px]">
+          <img src="../src/img/boeing.jpg" class="absolute w-[100px] h-[100px] rounded-[50%] -top-[125px] left-[40px] shadow-md object-contain md:left-[160px]">
+        <label for="email" class="absolute -top-[12px] left-[15px] bg-white px-[5px]">Email</label>
+        <input id="email" type="text" class="border border-gray-300 rounded-full p-[5px]" />
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png" class="absolute w-[20px] h-[20px] top-[10px] left-[20px]"/>
+        <label for="password" class="absolute top-[38px] left-[15px] bg-white px-[5px]">Password</label>
+        <input id="password" type="text" class="border border-gray-300 rounded-full p-[5px]" />
+        <img src="https://img.icons8.com/ios-filled/50/000000/lock.png" class="absolute w-[20px] h-[20px] left-[20px] top-[58px] "/>
+        <button class="bg-blue-800 text-white text-[12px] p-[8px] rounded-full">SIGN IN</button>
+        <button class="bg-red-600 text-white text-[12px] p-[8px] rounded-full">SIGN IN WITH API</button>
+      </div>
+      <p class="text-center py-[20px]">OR</p>
+      <div class="flex flex-col gap-[16px] items-center md:flex-row md:justify-center">
+        <button class="bg-sky-600 text-white text-[12px] rounded-full w-fit px-[60px] py-[4px]">FACEBOOK</button>
+        <button class="bg-sky-400 text-white text-[12px] rounded-full w-fit px-[65px] py-[4px]">TWITTER</button>
+      </div>
+    </div>
+  </body>
+</html>
